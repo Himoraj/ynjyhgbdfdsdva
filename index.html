@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="telegram-app">
+        <header class="app-header">
+            <button class="profile-button">
+                <img src="icons/44.png" alt="Profile" class="avatar">
+                <span class="profile-name">Пользователь</span>
+            </button>
+            <button class="Balance">
+                <img src="icons/balance.png" alt="Balance" class="icon">
+                <span>173,763</span>
+                <img src="icons/plus.png" alt="Refresh" class="icon refresh-icon">
+            </button>
+            <button class="connect-wallet">
+                <img src="icons/wallet.png" alt="Wallet" class="icon">
+                <span>Connect Wallet</span>
+            </button>
+        </header>
+
+        <main class="app-main">
+            <div class="tab-content active" data-tab-content="case">
+                <div class="centered-content">
+                    <div class="stats">Game Content</div>
+                </div>
+            </div>
+            <div class="tab-content" data-tab-content="trade">
+                <div class="centered-content">
+                    <div class="stats">Trade Content</div>
+                </div>
+            </div>
+            <div class="tab-content" data-tab-content="friends">
+                <div class="centered-content">
+                    <div class="friends-header">
+                        <div class="friends-main-title">Приглашай друзей - Получай награды</div>
+                        <div class="friends-reward-text">Каждый приглашенный друг = 1 🎟️ билет</div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" data-tab-content="raffles">
+                <div class="centered-content">
+                    <div class="stats">Raffles Content</div>
+                </div>
+            </div>
+            <div class="tab-content" data-tab-content="profile">
+    <div class="centered-content">
+        <div class="profile-content">
+            <img src="icons/44.png" alt="Profile" class="profile-avatar">
+            <div class="profile-username">Пользователь</div>
+            <div class="profile-userid">User id #4372654</div>
+            <div class="profile-divider"></div>
+        </div>
+    </div>
+</div>
+        </main>
+
+        <footer class="app-footer">
+            <div class="tab-container">
+                <div class="tab-bar">
+                    <button class="tab-button" data-tab="raffles">
+                        <img src="icons/gift.png" alt="Raffles" class="tab-icon">
+                        <span class="tab-label">Конкурсы</span>
+                    </button>
+                    <button class="tab-button" data-tab="trade">
+                        <img src="icons/123.png" alt="Trade" class="tab-icon">
+                        <span class="tab-label">Trade</span>
+                    </button>
+                    <button class="tab-button active" data-tab="case">
+                        <img src="icons/game.png" alt="Case" class="tab-icon">
+                        <span class="tab-label">Игры</span>
+                    </button>
+                    <button class="tab-button" data-tab="friends">
+                        <img src="icons/friends.png" alt="Friends" class="tab-icon">
+                        <span class="tab-label">Друзья</span>
+                    </button>
+                    <button class="tab-button" data-tab="profile">
+                        <img src="icons/profile.png" alt="Profile" class="tab-icon">
+                        <span class="tab-label">Профиль</span>
+                    </button>
+                    <div class="tab-highlight"></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
